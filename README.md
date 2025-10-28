@@ -1,0 +1,1 @@
+# pimcore-symfony6-freeze
