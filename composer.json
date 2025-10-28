@@ -1,0 +1,28 @@
+{
+    "name": "pimcore/pimcore-symfony6-freeze",
+    "type": "metapackage",
+    "description": "Metapackage to freeze Symfony components at version 6.x to match Pimcore 12.2 compatibility",
+    "license": "proprietary",
+    "keywords": [
+        "pimcore",
+        "symfony",
+        "constraints"
+    ],
+    "homepage": "https://www.pimcore.com",
+    "conflict": {
+        "symfony/console": ">=7.0",
+        "symfony/dependency-injection": ">=7.0",
+        "symfony/framework-bundle": ">=7.0",
+        "symfony/http-foundation": ">=7.0",
+        "symfony/http-kernel": ">=7.0",
+        "symfony/messenger": ">=7.0",
+        "symfony/runtime": ">=7.0",
+        "symfony/security-bundle": ">=7.0",
+        "symfony/security-core": ">=7.0",
+        "symfony/security-http": ">=7.0",
+        "symfony/templating": ">=7.0",
+        "symfony/twig-bridge": ">=7.0",
+        "symfony/twig-bundle": ">=7.0",
+        "symfony/validator": ">=7.0"
+    }
+}
