@@ -1,5 +1,5 @@
 {
-    "name": "pimcore/pimcore-symfony6-freeze",
+    "name": "pimcore/symfony-freeze",
     "type": "metapackage",
     "description": "Metapackage to freeze Symfony components at version 6.x to match Pimcore 12.2 compatibility",
     "license": "proprietary",
