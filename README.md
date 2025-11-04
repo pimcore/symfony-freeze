@@ -1,8 +1,8 @@
 # Pimcore Symfony Freeze
 
-A metapackage to control Symfony version constraints for Pimcore 12.3 and 12.x development versions.
+A metapackage to control Symfony version constraints for Pimcore Platform Version 2025.4 (pimcore/pimcore 12.3 and 12.x) development versions.
 
-**⚠️ Important**: This package is **only for Pimcore 12.3 and 12.x dev versions**. Pimcore 13 will require Symfony 7+ and drop Symfony 6 support entirely.
+**⚠️ Important**: This package is **only for Pimcore Platform Version 2025.4 versions**. Pimcore Platform Version 2026.* will require Symfony 7+ and drop Symfony 6 support entirely.
 
 ## Purpose
 
@@ -13,7 +13,7 @@ This metapackage uses Composer's `conflict` directive to enforce Symfony version
 
 ## Usage by Pimcore Version
 
-### Pimcore 12.3 / 12.x (dev versions)
+### Pimcore Platform Version 2025.4
 
 **Symfony 7.x fully supported** - choose based on your needs:
 
@@ -35,7 +35,7 @@ Or if you need Symfony 6.x compatibility:
 }
 ```
 
-### Pimcore 13+
+### Pimcore  Platform Version 2026.* and beyond
 
 **Do not use this package**. Remove it:
 
